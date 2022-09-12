@@ -6,7 +6,7 @@
   font-family: "Mulish", sans-serif;
   text-decoration: none;
   list-style: none;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
@@ -20,17 +20,18 @@ body {
   color: var(--bg-color);
   width: 100%;
 }
+
 main {
   margin-top: 8rem;
 }
 
-i{
-color: #fff;
+i {
+  color: #fff;
 }
 
-.logo img{
-width:50px;
-height:50px;
+.logo img {
+  width: 50px;
+  height: 50px;
 }
 
 header {
@@ -46,6 +47,7 @@ header {
   transition: 0.5s;
   background-color: rgb(0, 0, 0);
 }
+
 main {
   margin-top: 8rem;
 }
@@ -58,11 +60,13 @@ main {
 .navbar li {
   position: relative;
 }
+
 .navbar a {
   font-size: 1rem;
   font-weight: 500;
   color: var(--bg-color);
 }
+
 .navbar a::after {
   content: "";
   width: 0;
@@ -78,6 +82,7 @@ main {
 .navbar .home-active::after {
   width: 100%;
 }
+
 #menu-icon {
   font-size: 24px;
   cursor: pointer;
@@ -92,6 +97,7 @@ main {
   font-weight: 400;
   border-radius: 0.5rem;
 }
+
 .btn-login:hover {
   background-color: #0c35b3;
 }
@@ -105,6 +111,7 @@ main {
   justify-content: center;
   align-items: center;
 }
+
 .slider {
   margin: 0 auto;
   width: 800px;
@@ -157,15 +164,15 @@ main {
   background-color: #fff;
 }
 
-#radio1:checked ~ .first {
+#radio1:checked~.first {
   margin-left: 0;
 }
 
-#radio2:checked ~ .first {
+#radio2:checked~.first {
   margin-left: -25%;
 }
 
-#radio3:checked ~ .first {
+#radio3:checked~.first {
   margin-left: -50%;
 }
 
@@ -190,15 +197,15 @@ main {
   margin-right: 20px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1 {
+#radio1:checked~.navigation-auto .auto-btn1 {
   background-color: #fff;
 }
 
-#radio2:checked ~ .navigation-auto .auto-btn2 {
+#radio2:checked~.navigation-auto .auto-btn2 {
   background-color: #fff;
 }
 
-#radio3:checked ~ .navigation-auto .auto-btn3 {
+#radio3:checked~.navigation-auto .auto-btn3 {
   background-color: #fff;
 }
 
@@ -326,11 +333,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0%,
-    var(--text-color) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0%,
+      var(--text-color) 100%);
   cursor: pointer;
   z-index: 8;
 }
