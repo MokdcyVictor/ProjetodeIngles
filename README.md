@@ -4,7 +4,7 @@
 
 ## 📄 Goal:
 
-Creating a simple login screen for better learning html and css
+creation of website for presentation and obtaining note, objective of presenting and selling clothes
 
 ## ☕ Using ProjetodeIngles
 
